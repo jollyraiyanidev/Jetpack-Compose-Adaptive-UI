@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AdaptiveLayoutJetpack</string>
+    <string name="search">Search\n</string>
+    <string name="profile">Profile\n</string>
+    <string name="list">List</string>
+    <string name="home">Home</string>
+</resources>

@@ -1,0 +1,43 @@
+[versions]
+compose-bom = "2024.01.00"
+lifecycle-runtime-ktx = "2.7.0"
+activity-compose = "1.8.2"
+navigation-compose = "2.7.6"
+core-ktx = "1.12.0"
+hilt-android = "2.50"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+plugin-android-app = "8.2.2"
+plugin-kotlin = "1.9.21"
+window = "1.2.0"
+material3-window-size = "1.1.2"
+
+[libraries]
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation-compose" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt-android" }
+hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt-android" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-window = { group = "androidx.window", name = "window", version.ref = "window" }
+androidx-material3-window-size = { group = "androidx.compose.material3", name = "material3-window-size-class", version.ref = "material3-window-size" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "plugin-android-app" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "plugin-kotlin" }
+daggerHilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt-android" }
+kotlinKapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "plugin-kotlin" }
+
+[bundles]
